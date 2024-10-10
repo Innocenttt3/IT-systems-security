@@ -1,0 +1,12 @@
+docker run -dp 10001:10001 mazurkatarzyna/bsk-book-p1-ch1-ex001
+docker run -dp 10002:10002 mazurkatarzyna/bsk-book-p1-ch1-ex002
+docker run -dp 10003:10003 mazurkatarzyna/bsk-book-p1-ch1-ex003
+docker run -dp 10004:10004 mazurkatarzyna/bsk-book-p1-ch1-ex004
+docker run -it mazurkatarzyna/openssl-332-ubuntu
+
+docker images
+docker ps
+docker ps -a
+docker logs XXX
+docker stop XXX
+docker system prune -a
